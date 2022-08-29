@@ -181,13 +181,34 @@ figure {
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     text-align: justify;
 }
 
 .card h3 {
     font: 16px;
-    line-height: 28px;
+    line-height: 38px;
     text-align: justify;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.copy_write {
+    padding: 30px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #139154;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
 }
