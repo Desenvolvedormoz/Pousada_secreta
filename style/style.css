@@ -36,7 +36,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 60px;
+    padding: 1%;
 }
 
 .estiliza_topo nav {
@@ -122,18 +123,24 @@ header {
 }
 
 .secao_quartos {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 figure {
     width: calc((100% / 3) - 20px);
     height: 100%;
 }
+
+figcaption {
+    border-bottom: 3px solid #139154;
+}
+
 
 .secao_quartos img {
     width: 100%;
@@ -151,28 +158,28 @@ figure {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
+    height: 300px;
 }
 
 .card_div {
    max-width: 1024px;
    margin: auto;
    width: 100%;
-   height: 300px;
+   height: 200px;
 }
 
 .card_div img{
-    width: 150px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
 }
 
 .container {
     width: 100%;
-    height: calc(50% -20px);
+    height: calc(50% -10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 20px auto;
 }
 
 .card {
@@ -207,8 +214,23 @@ footer {
     padding: 20px;
     background-color: #139154;
     color: #fff;
+    margin-top: 50px;
 }
 
 .footer p {
     color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
 }
