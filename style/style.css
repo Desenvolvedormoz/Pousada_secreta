@@ -207,7 +207,8 @@ figcaption {
 }
 
 .copy_write {
-    padding: 30px;
+    padding: 20px;
+    border-top: 1px solid #3d3c3c;
 }
 
 footer {
